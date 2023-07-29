@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=".style.css" />
+     <link rel="stylesheet" href="./header.css" /> 
+    <link rel="stylesheet" href="./main.css" /> 
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mobile-header">
+      <nav class="mobile-header__navbar">
+        <ul class="mobile-header__ul">
+          <li class="mobile-header__list-link"><a href="#home">Home</a></li>
+          <li class="mobile-header__list-link">
+            <a href="#compare">Compare</a>
+          </li>
+          <li class="mobile-header__list-link">
+            <a href="#watchlist">Watchlist</a>
+          </li>
+          <li class="mobile-header__list-btn"><a href="#">Dashboard</a></li>
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+          />
+        </ul>
+        <div class="mobile-header__switch-btn">
+          <input type="checkbox" name="checkbox" id="toggle" />
+          <label for="toggle" class="mobile-switch"></label>
+        </div>
+      </nav>
+    </div>
+    <header class="header">
+      <nav class="header__navbar">
+        <div class="header__navbar-right">
+          <p>CryptoTracker</p>
+        </div>
+        <i class="fa-solid fa-bars" id="mobile-nav-icon"></i>
+        <div class="header__navbar-left">
+          <div class="header__switch-btn">
+            <input type="checkbox" name="checkbox" id="toggle" />
+            <label for="toggle" class="switch"></label>
+          </div>
+          <ul class="header__ul">
+            <li class="header__list-link"><a href="#home">Home</a></li>
+            <li class="header__list-link"><a href="#compare">Compare</a></li>
+            <li class="header__list-link">
+              <a href="#watchlist">Watchlist</a>
+            </li>
+            <li class="header__list-btn"><a href="#">Dashboard</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main___header">
+        <div class="main__header-left">Grid</div>
+        <div class="main__header-right">List</div>
+      </div>
+      <div class="main__grid"></div>
+      <div class="main__table">
+        <table id="table">
+          <!-- <tr class="tr">
+            <td>
+              <div class="table-main__grid-card-top">
+                <div class="table-main__grid-card-top-left">
+                  <img
+                    src="https://images.unsplash.com/photo-1536739120124-af891f029e99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                    alt="icon imag"
+                  />
+                </div>
+                <div class="table-main__grid-card-top-right">
+                  <h5>BTC</h5>
+                  <p>Bitcoin</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="table-percentage">24 %</div>
+            </td>
+            <td>
+              <div class="table-price">$ 23</div>
+            </td>
+            <td>
+              <div class="table-total__valume">Total Valume: 123.13,33,2,2</div>
+            </td>
+            <td>
+              <div class="table-market__cap">Market Cap: 123.13,33,2,2</div>
+            </td>
+          </tr>
+          <tr class="tr">
+            <td>
+              <div class="table-main__grid-card-top">
+                <div class="table-main__grid-card-top-left">
+                  <img
+                    src="https://images.unsplash.com/photo-1536739120124-af891f029e99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                    alt="icon imag"
+                  />
+                </div>
+                <div class="table-main__grid-card-top-right">
+                  <h5>BTC</h5>
+                  <p>Bitcoin</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="table-percentage">24 %</div>
+            </td>
+            <td>
+              <div class="table-price">$ 23</div>
+            </td>
+            <td>
+              <div class="total__valume">Total Valume: 123.13,33,2,2</div>
+            </td>
+            <td>
+              <div class="market__cap">Market Cap: 123.13,33,2,2</div>
+            </td>
+          </tr>
+          <tr class="tr">
+            <td>
+              <div class="table-main__grid-card-top">
+                <div class="table-main__grid-card-top-left">
+                  <img
+                    src="https://images.unsplash.com/photo-1536739120124-af891f029e99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                    alt="icon imag"
+                  />
+                </div>
+                <div class="table-main__grid-card-top-right">
+                  <h5>BTC</h5>
+                  <p>Bitcoin</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="table-percentage">24 %</div>
+            </td>
+            <td>
+              <div class="table-price">$ 23</div>
+            </td>
+            <td>
+              <div class="total__valume">Total Valume: 123.13,33,2,2</div>
+            </td>
+            <td>
+              <div class="market__cap">Market Cap: 123.13,33,2,2</div>
+            </td>
+          </tr> -->
+        </table>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
